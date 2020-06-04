@@ -1,0 +1,42 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+-leak-check	Makefile	/^	- valgrind -q --leak-check=full .\/testSimpleList3$/;"	m
+ASSERT_EQUALS	tddFuncs.h	36;"	d
+ASSERT_TRUE	tddFuncs.h	42;"	d
+BINARIES	Makefile	/^BINARIES=testSimpleList1 testSimpleList2 testSimpleList3$/;"	m
+CAPACITY	SimpleList.h	/^		static const int CAPACITY = 10;$/;"	m	class:SimpleList
+CXX	Makefile	/^CXX=clang++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wno-unused-private-field$/;"	m
+EMPTYLISTEXCEPTION_H	EmptyListException.h	2;"	d
+EmptyListException	EmptyListException.h	/^class EmptyListException {};$/;"	c
+FULLLISTEXCEPTION_H	FullListException.h	2;"	d
+FullListException	FullListException.h	/^class FullListException {};$/;"	c
+INVALIDINDEXEXCEPTION_H	InvalidIndexException.h	2;"	d
+InvalidIndexException	InvalidIndexException.h	/^class InvalidIndexException {};$/;"	c
+SIMPLELIST_H	SimpleList.h	4;"	d
+SimpleList	SimpleList.cpp	/^SimpleList<T>::SimpleList() {$/;"	f	class:SimpleList
+SimpleList	SimpleList.h	/^class SimpleList {$/;"	c
+TDDFUNCS_H	tddFuncs.h	2;"	d
+assertEquals	tddFuncs.cpp	/^void assertEquals(const char * const expected, $/;"	f
+assertEquals	tddFuncs.h	/^template<typename T> void assertEquals(T expected, $/;"	f
+assertTrue	tddFuncs.cpp	/^void assertTrue(bool expression,$/;"	f
+at	SimpleList.cpp	/^T SimpleList<T>::at(int index) const throw (InvalidIndexException) {$/;"	f	class:SimpleList
+convertLineNumber	tddFuncs.cpp	/^std::string convertLineNumber(int lineNumber) {$/;"	f
+elements	SimpleList.h	/^		T* elements;$/;"	m	class:SimpleList
+empty	SimpleList.cpp	/^bool SimpleList<T>::empty() const {$/;"	f	class:SimpleList
+first	SimpleList.cpp	/^T SimpleList<T>::first() const throw (EmptyListException) {$/;"	f	class:SimpleList
+getNumElements	SimpleList.cpp	/^int SimpleList<T>::getNumElements() const {$/;"	f	class:SimpleList
+insert	SimpleList.cpp	/^void SimpleList<T>::insert(T item) throw (FullListException) {$/;"	f	class:SimpleList
+last	SimpleList.cpp	/^T SimpleList<T>::last() const throw (EmptyListException) {$/;"	f	class:SimpleList
+main	testSimpleList1.cpp	/^int main() {$/;"	f
+main	testSimpleList2.cpp	/^int main() {$/;"	f
+main	testSimpleList3.cpp	/^int main() {$/;"	f
+numElements	SimpleList.h	/^		int numElements;$/;"	m	class:SimpleList
+remove	SimpleList.cpp	/^void SimpleList<T>::remove(int index) throw (InvalidIndexException, EmptyListException) {$/;"	f	class:SimpleList
+testDestructor1	testSimpleList3.cpp	/^void testDestructor1() {$/;"	f
+testDestructor2	testSimpleList3.cpp	/^void testDestructor2() {$/;"	f
+~SimpleList	SimpleList.cpp	/^SimpleList<T>::~SimpleList() {$/;"	f	class:SimpleList
